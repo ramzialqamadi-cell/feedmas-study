@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Shadow for depth -->
+    <filter id="subtle-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0e5836" flood-opacity="0.2"/>
+    </filter>
+    <!-- Path for arched FEEDMAS text -->
+    <path id="feedmas-arc-path" d="M 125,210 A 155,155 0 0,1 375,210" fill="none" />
+  </defs>
+
+  <g transform="translate(0, 0)">
+    <!-- Outer decorative dotted circle -->
+    <circle cx="250" cy="250" r="236" fill="none" stroke="#0e5836" stroke-width="3" stroke-linecap="round" stroke-dasharray="1.5, 9" />
+    
+    <!-- Outer solid circle -->
+    <circle cx="250" cy="250" r="226" fill="none" stroke="#0e5836" stroke-width="5" />
+    
+    <!-- Inner solid circle -->
+    <circle cx="250" cy="250" r="212" fill="none" stroke="#0e5836" stroke-width="2.5" />
+    
+    <!-- Inner decorative dotted circle -->
+    <circle cx="250" cy="250" r="202" fill="none" stroke="#0e5836" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="1.5, 8" />
+
+    <!-- FEEDMAS Banner Outline in upper arch -->
+    <path d="M 115,160 Q 250,90 385,160 L 372,205 Q 250,135 128,205 Z" fill="#ffffff" stroke="#0e5836" stroke-width="3.5" stroke-linejoin="round" />
+    <path d="M 125,167 Q 250,102 375,167" fill="none" stroke="#0e5836" stroke-width="1.5" />
+    <path d="M 134,197 Q 250,132 366,197" fill="none" stroke="#0e5836" stroke-width="1.5" />
+
+    <!-- Arched Text FEEDMAS -->
+    <text font-family="'Montserrat', 'Arial Black', sans-serif" font-size="34" font-weight="900" fill="#0e5836" letter-spacing="4">
+      <textPath href="#feedmas-arc-path" startOffset="50%" text-anchor="middle">FEEDMAS</textPath>
+    </text>
+
+    <!-- Industrial Gear Left -->
+    <g transform="translate(180, 205)" fill="#0e5836">
+      <path d="M -15,-40 L 15,-40 L 12,-26 A 40,40 0 0,1 28,-14 L 40,-20 L 48,6 L 36,13 A 40,40 0 0,1 36,31 L 46,42 L 26,58 L 17,47 A 40,40 0 0,1 -2,50 L -8,64 L -32,54 L -28,40 A 40,40 0 0,1 -41,27 L -55,32 L -60,6 L -46,1 A 40,40 0 0,1 -44,-17 L -54,-28 L -36,-44 L -25,-34 A 40,40 0 0,1 -12,-38 Z" transform="scale(0.68)"/>
+      <circle cx="-3" cy="6" r="16" fill="#ffffff" stroke="#0e5836" stroke-width="5" />
+    </g>
+
+    <!-- Industrial Gear Right -->
+    <g transform="translate(320, 205)" fill="#0e5836">
+      <path d="M -15,-40 L 15,-40 L 12,-26 A 40,40 0 0,1 28,-14 L 40,-20 L 48,6 L 36,13 A 40,40 0 0,1 36,31 L 46,42 L 26,58 L 17,47 A 40,40 0 0,1 -2,50 L -8,64 L -32,54 L -28,40 A 40,40 0 0,1 -41,27 L -55,32 L -60,6 L -46,1 A 40,40 0 0,1 -44,-17 L -54,-28 L -36,-44 L -25,-34 A 40,40 0 0,1 -12,-38 Z" transform="scale(0.68)"/>
+      <circle cx="-3" cy="6" r="16" fill="#ffffff" stroke="#0e5836" stroke-width="5" />
+    </g>
+
+    <!-- Central Stylized Wheat Ear -->
+    <g transform="translate(250, 200)" fill="#0e5836" stroke="#0e5836" stroke-width="1.5">
+      <!-- Central stem -->
+      <line x1="0" y1="-80" x2="0" y2="28" stroke-width="5" stroke-linecap="round"/>
+      <!-- Top spike -->
+      <path d="M 0,-85 C -6,-72 0,-55 0,-50 C 0,-55 6,-72 0,-85 Z"/>
+      <!-- Pair 1 -->
+      <path d="M -2,-70 C -18,-66 -22,-48 -7,-44 C -2,-45 -2,-55 -2,-70 Z"/>
+      <path d="M 2,-70 C 18,-66 22,-48 7,-44 C 2,-45 2,-55 2,-70 Z"/>
+      <!-- Pair 2 -->
+      <path d="M -3,-54 C -22,-50 -25,-30 -8,-26 C -3,-28 -3,-38 -3,-54 Z"/>
+      <path d="M 3,-54 C 22,-50 25,-30 8,-26 C 3,-28 3,-38 3,-54 Z"/>
+      <!-- Pair 3 -->
+      <path d="M -3,-36 C -24,-31 -26,-10 -9,-7 C -3,-9 -3,-20 -3,-36 Z"/>
+      <path d="M 3,-36 C 24,-31 26,-10 9,-7 C 3,-9 3,-20 3,-36 Z"/>
+      <!-- Pair 4 -->
+      <path d="M -3,-18 C -24,-13 -25,8 -9,11 C -3,9 -3,0 -3,-18 Z"/>
+      <path d="M 3,-18 C 24,-13 25,8 9,11 C 3,9 3,0 3,-18 Z"/>
+      <!-- Lower leaves -->
+      <path d="M -2,0 C -22,8 -25,28 -10,32 C -4,28 -3,14 -2,0 Z"/>
+      <path d="M 2,0 C 22,8 25,28 10,32 C 4,28 3,14 2,0 Z"/>
+    </g>
+
+    <!-- Bold Arabic Text: فيدماس -->
+    <!-- Custom stylized typography for "فيدماس" -->
+    <g transform="translate(250, 290)">
+      <text font-family="'Cairo', 'Tajawal', sans-serif" font-size="78" font-weight="900" fill="#0e5836" text-anchor="middle" letter-spacing="1">فـيـدمـاس</text>
+    </g>
+
+    <!-- Tagline Arabic Line 1: أفضل احترافية -->
+    <text x="250" y="348" font-family="'Tajawal', 'Cairo', sans-serif" font-size="28" font-weight="800" fill="#0e5836" text-anchor="middle" letter-spacing="1.5">
+      أفضل احترافية
+    </text>
+
+    <!-- Tagline Arabic Line 2: جودة متسقة -->
+    <text x="250" y="390" font-family="'Tajawal', 'Cairo', sans-serif" font-size="25" font-weight="700" fill="#0e5836" text-anchor="middle" letter-spacing="2">
+      جودة متسقة
+    </text>
+  </g>
+</svg>
